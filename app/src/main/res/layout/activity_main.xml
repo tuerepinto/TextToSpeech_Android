@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTexto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o texto aqui"/>
+
+    <TextView
+        android:id="@+id/textViewStatusLocale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/buttonFale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fala Comigo"
+        android:onClick="onClickSpeech" />
+
+</LinearLayout>
