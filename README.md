@@ -4,12 +4,31 @@ Tudo que for digitado no "EditText", será lido usando a voz nativa do android.
  * Lembrando que algumas adaptações serão necessárias.
 
 ######Componentes Básicos
-  i. EditText - Componente que receberá os textos.
- 
- 
- ii. 
+  i. EditText - Componente que será responsável, por receber os textos informados pelo usuário.
 
-###### PRINT DAS TELAS 
+```xml
+    <EditText
+        android:id="@+id/editTextTexto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o texto aqui"/>
+```
+ 
+ ii. TextView - Componente não finalizado a implementação, pois não tinha necessidade.
+
+ ```xml
+ <!-- Componente não implementado, por não ser necessário o uso-->
+ <!--<TextView
+        android:id="@+id/textViewStatusLocale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  -->
+ ``` 
+
+ iii.
+
+###### Print das telas 
   1. Telas básicas 
 
 ![TELA 1 - Seleção de idiomas]
