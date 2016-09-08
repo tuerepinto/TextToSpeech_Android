@@ -17,7 +17,7 @@ Tudo que for digitado no "EditText", será lido usando a voz nativa do android.
  ii. TextView - Componente não finalizado a implementação, pois não tinha necessidade.
 
  ```xml
- <!-- Componente não implementado, por não ser necessário o uso-->
+ <!--Componente não implementado, por não ser necessário o uso-->
  <!--<TextView
         android:id="@+id/textViewStatusLocale"
         android:layout_width="wrap_content"
@@ -26,7 +26,15 @@ Tudo que for digitado no "EditText", será lido usando a voz nativa do android.
   -->
  ``` 
 
- iii.
+iii. Spinner - Componente com mesmo comportamento de um ComboBox, sua finalidade é a seleção de idioma, que a API irá usa para lê o texto. Obs:. Em alguns casos e versão do Android, a opção de mudança de idioma não será possível de ser utilizada.
+
+  ```xml
+      <Spinner
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+  ```
 
 ###### Print das telas 
   1. Telas básicas 
