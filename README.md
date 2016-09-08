@@ -3,7 +3,7 @@ Tudo que for digitado no "EditText", será lido usando a voz nativa do android.
  * Versão beta do Text To Speech. A tela é básica, só estou demonstrando como se faz para chamar uma API nativa do Android, para usar em qualquer aplicação.
  * Lembrando que algumas adaptações serão necessárias.
 
-#### Componentes Básicos
+#### Componentes Básicos :finnadie:
   i. EditText - Componente que será responsável, por receber os textos informados pelo usuário.
 
 ```xml
@@ -220,7 +220,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
 ```
 
 
-#### Print das telas 
+#### Print das telas :godmode:
   1. Telas básicas 
 
 ![TELA 1 - Seleção de idiomas]
