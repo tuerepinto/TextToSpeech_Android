@@ -3,7 +3,7 @@ Tudo que for digitado no "EditText", será lido usando a voz nativa do android.
  * Versão beta do Text To Speech. A tela é básica, só estou demonstrando como se faz para chamar uma API nativa do Android, para usar em qualquer aplicação.
  * Lembrando que algumas adaptações serão necessárias.
 
-######Componentes Básicos
+#### Componentes Básicos
   i. EditText - Componente que será responsável, por receber os textos informados pelo usuário.
 
 ```xml
@@ -35,8 +35,17 @@ iii. Spinner - Componente com mesmo comportamento de um ComboBox, sua finalidade
         android:layout_height="wrap_content"
         />
   ```
+iiii. Button - Componente responsável pela ação final, "Leitura do texto digitado no EditText".
 
-###### Print das telas 
+```xml
+    <Button
+        android:id="@+id/buttonFale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fala Comigo"
+        android:onClick="onClickSpeech" />
+```
+#### Print das telas 
   1. Telas básicas 
 
 ![TELA 1 - Seleção de idiomas]
