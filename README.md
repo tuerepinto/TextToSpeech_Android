@@ -1,4 +1,4 @@
-#TextToSpeech_Android :notes:
+#TextToSpeech_Android :loudspeaker: :notes:
 Tudo que for digitado no "EditText", será lido usando a voz nativa do android.
  * Versão beta do Text To Speech. A tela é básica, só estou demonstrando como se faz para chamar uma API nativa do Android, para usar em qualquer aplicação.
  * Lembrando que algumas adaptações serão necessárias.
