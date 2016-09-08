@@ -1,7 +1,7 @@
-# TextToSpeech_Android
+#TextToSpeech_Android :notes:
 Tudo que for digitado será lido, usando a voz nativa do android.
 
-## PRINT DAS TELAS
+###### PRINT DAS TELAS 
 -Versão beta do Text To Speech. A tela é simples, só estou demostrando como se faz para chamar um API ou um comando nativo do Android para usar em qualquer aplicação.
 Lembrando que algumas adaptações serão necessarias. 
 ![TELA 1 - Seleção de idiomas](https://github.com/tuerepinto/TextToSpeech_Android/blob/master/Screenshot_20160720-172705.png)
